@@ -2,11 +2,11 @@
 
 var number = Math.floor(Math.random()*6)+1;
 var diceImage = "dice"+number+".png";
-var randomImageSource = "images/" + diceImage;
+var randomImageSource = diceImage;
 
 var number2 = Math.floor(Math.random()*6)+1;
 var diceImage2 = "dice"+number2+".png";
-var randomImageSource2 = "images/" + diceImage2;
+var randomImageSource2 = diceImage2;
 
 console.log(number);
 console.log(number2)
@@ -28,3 +28,4 @@ else if (number2> number){
 else{
     document.querySelector("h1").innerHTML = "Draw";
 }
+
